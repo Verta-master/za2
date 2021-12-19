@@ -1,0 +1,100 @@
+.market {
+  width: 100%;
+  color: #fff;
+  background-image: url(../img/images/image-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.market__block {
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.market__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.market__logo {
+  margin-right: 20px;
+  
+  img {
+    width: 53px;
+    height: auto;
+    display: block;
+  }
+}
+.market__main {
+  width: 105px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.market__list {
+  .reset();
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: auto;
+}
+.market__item {
+  width: 125px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.market__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 42px;
+  height: 43px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  background-color: #000;
+  
+  img {
+    display: block;
+    width: 15px;
+    height: auto;
+  }
+}
+.market__title {
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.market__btn {
+  width: 222px;
+  height: 42px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: rgba(232, 234, 228, 0.5);
+  .transition();
+  
+  &:hover,
+  &:active {
+    background-color: #fff;
+    .transition();
+  }
+}
